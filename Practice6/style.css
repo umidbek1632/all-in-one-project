@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+
+}
+.result{
+    border: 1px solid black;
+    height: 50vh;
+    width: 30%;
+}
+.section{
+    border: 1px solid black;
+    height: 50vh;
+    width: 70%;
+}
+.question{
+    height: 25vh;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 180px;
+    font-size: 50px;
+}
+.answer{
+    height: 25vh;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 180px;
+    font-size: 50px;
+}
+.result{
+    font-size: 20px;
+    
+}

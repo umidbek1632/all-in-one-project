@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+
+    width: 70%;
+    height: 90vh;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.find{
+    width: 30%;
+    height: 30vh;
+    border: 2px solid black;
+    line-height: 100px;
+    background-image: url(3.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

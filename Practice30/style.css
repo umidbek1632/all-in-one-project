@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ccc;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.portrait{
+    background-color: white;
+    text-align: center;
+}
+.portrait img{
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.portrait p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.money{
+    height: 70px;
+    text-align: center;
+    background-color: #2ecc71;
+    line-height: 70px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    position: sticky;
+    top: 0;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+   
+}
+.product-item{
+    width: 33%;
+    background-color: white;
+    text-align: center;
+}
+.product-image{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+
+}
+.product-price{
+    color: #19b058;
+    font-weight: bold;
+    padding: 5px;
+}
+.product-controls{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    column-gap: 5px;
+}
+.sell-button, .buy-button, .count{
+    width: 33%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.sell-button{
+    border: none;
+}
+.buy-button{
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.count{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

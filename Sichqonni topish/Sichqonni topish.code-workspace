@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Sichqonni topish",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "C:/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sichqonni topish"
+	}
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+.game-display{
+    display: flex;
+    height: 60vh;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 100px auto;
+    position: relative;
+}
+.square{
+    border: 1px solid black;
+    width: 33%;
+    font-size: 70px;
+    font-family: sans-serif;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.square:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.natija{
+    /* background-color: blue; */
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 15px;
+
+}
+.xxx{
+    border: 2px solid black;
+    width: 80px;
+    height: 40px;
+}
+.ooo{
+    border: 2px solid black;
+    width: 80px;
+    height: 40px;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 200%;
+    font-size: 20px;
+}

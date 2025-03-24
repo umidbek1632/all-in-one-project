@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.barabon img{
+    width: 500px;
+    height: 500px;
+    transition: 2s;
+    cursor: pointer;
+}
+.barabon{
+    padding: 100px 500px;
+    position: absolute;
+}
+.strelka img{
+    width: 200px;
+    height: 160px;
+    position: relative;
+    top: 210px;
+    left: 649px;
+}

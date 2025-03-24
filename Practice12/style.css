@@ -1,0 +1,98 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+body{
+          display: flex;
+          justify-content: center;
+          height: 100vh;
+          align-items: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+          display: flex;
+          justify-content: space-between;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          height: 65vh;
+          border-radius: 10px ;
+          /* overflow: hidden; */
+          width: 60%;
+          height: 70vh;
+          position: relative;
+          
+}
+table{
+          width: 250px;
+          /* height: 60vh; */
+          padding: 20px;
+        
+}
+.fruit-display{
+          width: 800px;
+          /* overflow: hidden; */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+.fruit-image{
+          margin-top: 40px;
+          width: 600px;
+          height: 400px;
+          object-fit: cover;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          transition: 0.6s;
+          margin-left: 40px;
+}
+.fruit-image:hover{
+          scale: 1.05;
+          
+}
+.fruit-price{
+          margin-top: 20px;
+          background-color: #007BFF;
+          color: white;
+          padding: 10px 30px;
+          border-radius: 5px;
+          user-select: none;
+}
+.fruit-price:hover{
+          background-color: #010BFF;
+}
+td{
+          border-bottom: 1px solid #ddd;
+          padding-left: 10px;
+          user-select: none;
+          cursor: pointer;
+}
+tr:hover{
+          background-color: khaki;
+}
+tr:active{
+          background-color: rgb(197, 187, 76);
+}
+th{
+          background-color: #4CAF50;
+          color: white;
+          border-radius: 5px 5px 0 0;
+          user-select: none;
+}
+button{
+          height: 50px;
+          margin: auto 0px;
+          border: none;
+      
+}
+.table2{
+    padding-left: 200px;
+ 
+}
+/* .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    
+} */

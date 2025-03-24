@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.game-display{
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 80%;
+    margin: 60px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.names{
+    display: flex;
+    justify-content: space-evenly;
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.user-photo{
+    display: flex;
+    padding: 130px 0 ;
+    height: 600px;
+    margin-top: -150px;
+
+}
+.computer-photo{
+    display: flex;
+    padding: 150px 0 ;
+    height: 640px;
+    margin-top: -170px;
+    margin-right: 0px;
+}
+.elements{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+ 
+}
+.restart{
+    width: 200px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+.restart:hover{
+    scale: 1.1;
+}
+.paper:hover{
+    scale: 1.3;
+    cursor: pointer;
+}
+.rock:hover{
+    scale: 1.3;
+    cursor: pointer;
+}
+.scissors:hover{
+    scale: 1.3;
+    cursor: pointer;
+}
+.user-score{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 200%;
+}
+.computer-score{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 200%;
+}
+.user-load{
+    background-color: red;
+    position: absolute;
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer-load{
+    background-color: blue;
+    position: absolute;
+    height: 300px;
+    width: 50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    width: 50px;
+    height: 50px;
+    border: 5px dotted white;
+    border-top: none;
+    border-radius: 50%;
+    animation: load 1s infinite linear;
+   
+}
+@keyframes load{
+ 
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
